@@ -1,0 +1,62 @@
+.aboutus {
+  background-color: #f9f9f9; 
+  padding-top: 6rem /* 96px */;
+  padding-bottom: 6rem /* 96px */;
+  margin-bottom: 5rem
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-heading {
+  font-size: 3.5rem;
+
+
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 1200px;
+}
+
+/* Responsive Styles */
+@media screen and (min-device-width: 340px) and (max-device-width: 600px){
+  .aboutus {
+    padding-top: 2rem /* 96px */;
+    padding-bottom: 2rem /* 96px */;
+    padding-left: 1rem /* 96px */;
+    padding-right: 1rem; /* 96px */
+    margin-bottom: 2rem;
+  }
+  .about-heading {
+    font-size: 2rem;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-device-width: 800px) and (max-device-width: 1300px){
+  .aboutus {
+    margin-left: 0.3rem;
+    padding-top: 2rem /* 96px */;
+    padding-bottom: 2rem /* 96px */;
+    padding-left: 3rem /* 96px */;
+    padding-right: 3rem; /* 96px */
+    margin-bottom: 2rem;
+  }
+  .about-heading {
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    font-size: 1.1rem;
+  }
+}
+
+
+

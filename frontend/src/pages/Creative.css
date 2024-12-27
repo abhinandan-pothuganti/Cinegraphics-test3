@@ -1,0 +1,11 @@
+.pro-base2{
+    overflow: hidden;
+}
+
+
+@media screen and (min-device-width: 300px) and (max-device-width: 600px){
+    .pro-base2{
+        margin:0 2rem 0 2rem;
+        overflow:scroll;
+    }
+}
